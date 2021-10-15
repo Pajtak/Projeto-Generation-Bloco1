@@ -1,5 +1,7 @@
 package Codigos;
 
+import javax.swing.JOptionPane;
+
 public class ExerciciosLevesCopia {
 	
 	/*public static void main (String [] args) {
@@ -19,137 +21,179 @@ public class ExerciciosLevesCopia {
 		case 10:
 			
 			if(imcF < 14.23) {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está abaixo do peso. " + "Melhore a sua alimentação");
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está abaixo do peso, caso queira mudar ou "
+						+ "						não se sinta confortavel com ele, procure um nutricionista para ele orientar novas habitos alimentares");
 				
 			} else if (imcF >= 14.23 && imcF <= 20.19) {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está com o peso normal. " + "Continue assim!!!");
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está com o peso normal, caso queira mudar ou "
+						+ "							não está confortavel com ele, você pode realizar exercícios leves, como caminhadas,"
+						+ "							polichinelos ou pular corda ");
 			
 			}else {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está com sobrepeso." + "Melhore a sua alimentação, começe a fazer exercícios leves como caminhadas e procure a ajuda de um nutricionista");
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está com sobrepeso, isso pode ser prejudicial a sua saúde, "
+						+ "							é recomendavel que entre em contato com um profissinal de saúde qualificado para orienta-lo sobre que medidas você deve tomar"
+						+ "							se esse não for o seu caso e você deseja mudar, recomendamos que faça exercícios leves como caminha e polichinelo para melhorar o seu cardio");
 				
 			}
 			break;
 		case 11:
 			
 			if(imcF < 14.60) {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está abaixo do peso. " + "Melhore a sua alimentação");
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está abaixo do peso, caso queira mudar ou "
+						+ "						não se sinta confortavel com ele, procure um nutricionista para ele orientar novas habitos alimentares");	
 				
 			} else if (imcF >= 14.60 && imcF <= 21.18) {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está com o peso normal. " + "Continue assim!!!");
-			
-			}else {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está com sobrepeso." + "Melhore a sua alimentação, começe a fazer exercícios leves como caminhadas e procure a ajuda de um nutricionista");
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está com o peso normal, caso queira mudar ou "
+						+ "							não está confortavel com ele, você pode realizar exercícios leves, como caminhadas,"
+						+ "							polichinelos ou pular corda ");	
 				
+			}else {
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está com sobrepeso, isso pode ser prejudicial a sua saúde, "
+						+ "							é recomendavel que entre em contato com um profissinal de saúde qualificado para orienta-lo sobre que medidas você deve tomar"
+						+ "							se esse não for o seu caso e você deseja mudar, recomendamos que faça exercícios leves como caminha e polichinelo para melhorar o seu cardio");				
 			}
 			break;
 		case 12:
 			
 			if(imcF < 14.98) {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está abaixo do peso. " + "Melhore a sua alimentação");
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está abaixo do peso, caso queira mudar ou "
+						+ "						não se sinta confortavel com ele, procure um nutricionista para ele orientar novas habitos alimentares");	
 				
 			} else if (imcF >= 14.98 && imcF <= 22.17) {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está com o peso normal. " + "Continue assim!!!");
-			
-			}else {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está com sobrepeso." + "Melhore a sua alimentação, começe a fazer exercícios leves como caminhadas e procure a ajuda de um nutricionista");
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está com o peso normal, caso queira mudar ou "
+						+ "							não está confortavel com ele, você pode realizar exercícios leves, como caminhadas,"
+						+ "							polichinelos ou pular corda ");	
 				
+			}else {
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está com sobrepeso, isso pode ser prejudicial a sua saúde, "
+						+ "							é recomendavel que entre em contato com um profissinal de saúde qualificado para orienta-lo sobre que medidas você deve tomar"
+						+ "							se esse não for o seu caso e você deseja mudar, recomendamos que faça exercícios leves como caminha e polichinelo para melhorar o seu cardio");				
 			}
 			break;
 		case 13:
 			
 			if(imcF < 15.36) {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está abaixo do peso. " + "Melhore a sua alimentação");
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está abaixo do peso, caso queira mudar ou "
+						+ "						não se sinta confortavel com ele, procure um nutricionista para ele orientar novas habitos alimentares");
 				
 			} else if (imcF >= 15.36 && imcF <= 23.08) {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está com o peso normal. " + "Continue assim!!!");
-			
-			}else {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está com sobrepeso." + "Melhore a sua alimentação, começe a fazer exercícios leves como caminhadas e procure a ajuda de um nutricionista");
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está com o peso normal, caso queira mudar ou "
+						+ "							não está confortavel com ele, você pode realizar exercícios leves, como caminhadas,"
+						+ "							polichinelos ou pular corda ");	
 				
+			}else {
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está com sobrepeso, isso pode ser prejudicial a sua saúde, "
+						+ "							é recomendavel que entre em contato com um profissinal de saúde qualificado para orienta-lo sobre que medidas você deve tomar"
+						+ "							se esse não for o seu caso e você deseja mudar, recomendamos que faça exercícios leves como caminha e polichinelo para melhorar o seu cardio");						
 			}
 			break;
 		case 14:
 			
 			if(imcF < 15.67) {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está abaixo do peso. " + "Melhore a sua alimentação");
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está abaixo do peso, caso queira mudar ou "
+						+ "						não se sinta confortavel com ele, procure um nutricionista para ele orientar novas habitos alimentares");
 				
 			} else if (imcF >= 15.67 && imcF <= 23.88) {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está com o peso normal. " + "Continue assim!!!");
-			
-			}else {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está com sobrepeso." + "Melhore a sua alimentação, começe a fazer exercícios leves como caminhadas e procure a ajuda de um nutricionista");
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está com o peso normal, caso queira mudar ou "
+						+ "							não está confortavel com ele, você pode realizar exercícios leves, como caminhadas,"
+						+ "							polichinelos ou pular corda ");	
 				
+							
+			}else {
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está com sobrepeso, isso pode ser prejudicial a sua saúde, "
+						+ "							é recomendavel que entre em contato com um profissinal de saúde qualificado para orienta-lo sobre que medidas você deve tomar"
+						+ "							se esse não for o seu caso e você deseja mudar, recomendamos que faça exercícios leves como caminha e polichinelo para melhorar o seu cardio");						
 			}
 			break;
 		case 15:
 			
 			if(imcF < 16.01) {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está abaixo do peso. " + "Melhore a sua alimentação");
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está abaixo do peso, caso queira mudar ou "
+						+ "						não se sinta confortavel com ele, procure um nutricionista para ele orientar novas habitos alimentares");
 				
 			} else if (imcF >= 16.01 && imcF <= 24.29) {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está com o peso normal. " + "Continue assim!!!");
-			
-			}else {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está com sobrepeso." + "Melhore a sua alimentação, começe a fazer exercícios leves como caminhadas e procure a ajuda de um nutricionista");
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está com o peso normal, caso queira mudar ou "
+						+ "							não está confortavel com ele, você pode realizar exercícios leves, como caminhadas,"
+						+ "							polichinelos ou pular corda ");	
 				
+			}else {
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está com sobrepeso, isso pode ser prejudicial a sua saúde, "
+						+ "							é recomendavel que entre em contato com um profissinal de saúde qualificado para orienta-lo sobre que medidas você deve tomar"
+						+ "							se esse não for o seu caso e você deseja mudar, recomendamos que faça exercícios leves como caminha e polichinelo para melhorar o seu cardio");
 			}
 			break;
 		case 16:
 			
 			if(imcF < 16.37) {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está abaixo do peso. " + "Melhore a sua alimentação");
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está abaixo do peso, caso queira mudar ou "
+						+ "						não se sinta confortavel com ele, procure um nutricionista para ele orientar novas habitos alimentares");
 				
 			} else if (imcF >= 16.37 && imcF <= 24.74) {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está com o peso normal. " + "Continue assim!!!");
-			
-			}else {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está com sobrepeso." + "Melhore a sua alimentação, começe a fazer exercícios leves como caminhadas e procure a ajuda de um nutricionista");
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está com o peso normal, caso queira mudar ou "
+						+ "							não está confortavel com ele, você pode realizar exercícios leves, como caminhadas,"
+						+ "							polichinelos ou pular corda ");	
 				
+			}else {
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está com sobrepeso, isso pode ser prejudicial a sua saúde, "
+						+ "							é recomendavel que entre em contato com um profissinal de saúde qualificado para orienta-lo sobre que medidas você deve tomar"
+						+ "							se esse não for o seu caso e você deseja mudar, recomendamos que faça exercícios leves como caminha e polichinelo para melhorar o seu cardio");				
 			}
 			break;
 		case 17:
 			
 			if(imcF < 16.59) {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está abixo do peso. " + "Melhore a sua alimentação");
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está abaixo do peso, caso queira mudar ou "
+						+ "						não se sinta confortavel com ele, procure um nutricionista para ele orientar novas habitos alimentares");
 				
 			} else if (imcF >= 16.59 && imcF <= 25.23) {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está com o peso normal. " + "Continue assim!!!");
-			
-			}else {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está com sobrepeso." + "Melhore a sua alimentação, começe a fazer exercícios leves como caminhadas e procure a ajuda de um nutricionista");
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está com o peso normal, caso queira mudar ou "
+						+ "							não está confortavel com ele, você pode realizar exercícios leves, como caminhadas,"
+						+ "							polichinelos ou pular corda ");	
 				
+			}else {
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está com sobrepeso, isso pode ser prejudicial a sua saúde, "
+						+ "							é recomendavel que entre em contato com um profissinal de saúde qualificado para orienta-lo sobre que medidas você deve tomar"
+						+ "							se esse não for o seu caso e você deseja mudar, recomendamos que faça exercícios leves como caminha e polichinelo para melhorar o seu cardio");					
 			}
 			break;
 		case 18:
 			
 			if(imcF < 16.71) {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está abixo do peso. " + "Melhore a sua alimentação");
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está abaixo do peso, caso queira mudar ou "
+						+ "						não se sinta confortavel com ele, procure um nutricionista para ele orientar novas habitos alimentares");
 				
 			} else if (imcF >= 16.71 && imcF <= 25.56) {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está com o peso normal. " + "Continue assim!!!");
-			
-			}else {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está com sobrepeso." + "Melhore a sua alimentação, começe a fazer exercícios leves como caminhadas e procure a ajuda de um nutricionista");
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está com o peso normal, caso queira mudar ou "
+						+ "							não está confortavel com ele, você pode realizar exercícios leves, como caminhadas,"
+						+ "							polichinelos ou pular corda ");	
 				
+			}else {
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está com sobrepeso, isso pode ser prejudicial a sua saúde, "
+						+ "							é recomendavel que entre em contato com um profissinal de saúde qualificado para orienta-lo sobre que medidas você deve tomar"
+						+ "							se esse não for o seu caso e você deseja mudar, recomendamos que faça exercícios leves como caminha e polichinelo para melhorar o seu cardio");					
 			}
 			break;
 		case 19:
 			
 			if(imcF < 16.87) {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está abixo do peso. " + "Melhore a sua alimentação");
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está abaixo do peso, caso queira mudar ou "
+						+ "						não se sinta confortavel com ele, procure um nutricionista para ele orientar novas habitos alimentares");
 				
 			} else if (imcF >= 16.87 && imcF <= 25.85) {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está com o peso normal. " + "Continue assim!!!");
-			
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está com o peso normal, caso queira mudar ou "
+						+ "							não está confortavel com ele, você pode realizar exercícios leves, como caminhadas,"
+						+ "							polichinelos ou pular corda ");	
+							
 			}else {
-				System.out.println("O seu IMC é: " + imcF + "\nVocê está com sobrepeso." + "Melhore a sua alimentação, começe a fazer exercícios leves como caminhadas e procure a ajuda de um nutricionista");
-				
+				JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcF + "\nVocê está com sobrepeso, isso pode ser prejudicial a sua saúde, "
+						+ "							é recomendavel que entre em contato com um profissinal de saúde qualificado para orienta-lo sobre que medidas você deve tomar"
+						+ "							se esse não for o seu caso e você deseja mudar, recomendamos que faça exercícios leves como caminha e polichinelo para melhorar o seu cardio");					
 			}
 			break;
 			
 			default: 
 				
-				System.out.println("O seu IMC é: "  + imcF + "\nNão foi possível realizar o cálculo. " + "Entre novamente com o seu peso e altura.");
+				JOptionPane.showMessageDialog(null,"O seu IMC é: "  + imcF + "\nNão foi possível realizar o cálculo. " + "Entre novamente com o seu peso e altura.");
 				
 			break;
 		}
@@ -162,137 +206,177 @@ public class ExerciciosLevesCopia {
 			case 10:
 				
 				if(imcM < 14.42) {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está abixo do peso. " + "Melhore a sua alimentação");
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está abaixo do peso, caso queira mudar ou "
+							+ "						não se sinta confortavel com ele, procure um nutricionista para ele orientar novas habitos alimentares");
 					
 				} else if (imcM >= 14.42 && imcM <= 19.6) {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está com o peso normal. " + "Continue assim!!!");
-				
-				}else {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está com sobrepeso." + "Melhore a sua alimentação, começe a fazer exercícios leves como caminhadas e procure a ajuda de um nutricionista");
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está com o peso normal, caso queira mudar ou "
+							+ "							não está confortavel com ele, você pode realizar exercícios leves, como caminhadas,"
+							+ "							polichinelos ou pular corda ");	
 					
+				}else {
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está com sobrepeso, isso pode ser prejudicial a sua saúde, "
+							+ "							é recomendavel que entre em contato com um profissinal de saúde qualificado para orienta-lo sobre que medidas você deve tomar"
+							+ "							se esse não for o seu caso e você deseja mudar, recomendamos que faça exercícios leves como caminha e polichinelo para melhorar o seu cardio");						
 				}
 				break;
 			case 11:
 				
 				if(imcM < 14.83) {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está abixo do peso. " + "Melhore a sua alimentação");
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está abaixo do peso, caso queira mudar ou "
+							+ "						não se sinta confortavel com ele, procure um nutricionista para ele orientar novas habitos alimentares");
 					
 				} else if (imcM >= 14.83 && imcM <= 20.35) {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está com o peso normal. " + "Continue assim!!!");
-				
-				}else {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está com sobrepeso." + "Melhore a sua alimentação, começe a fazer exercícios leves como caminhadas e procure a ajuda de um nutricionista");
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está com o peso normal, caso queira mudar ou "
+							+ "							não está confortavel com ele, você pode realizar exercícios leves, como caminhadas,"
+							+ "							polichinelos ou pular corda ");	
 					
+				}else {
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está com sobrepeso, isso pode ser prejudicial a sua saúde, "
+							+ "							é recomendavel que entre em contato com um profissinal de saúde qualificado para orienta-lo sobre que medidas você deve tomar"
+							+ "							se esse não for o seu caso e você deseja mudar, recomendamos que faça exercícios leves como caminha e polichinelo para melhorar o seu cardio");						
 				}
 				break;
 			case 12:
 				
 				if(imcM < 15.24) {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está abixo do peso. " + "Melhore a sua alimentação");
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está abaixo do peso, caso queira mudar ou "
+							+ "						não se sinta confortavel com ele, procure um nutricionista para ele orientar novas habitos alimentares");
 					
 				} else if (imcM >= 15.24 && imcM <= 21.12) {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está com o peso normal. " + "Continue assim!!!");
-				
-				}else {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está com sobrepeso." + "Melhore a sua alimentação, começe a fazer exercícios leves como caminhadas e procure a ajuda de um nutricionista");
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está com o peso normal, caso queira mudar ou "
+							+ "							não está confortavel com ele, você pode realizar exercícios leves, como caminhadas,"
+							+ "							polichinelos ou pular corda ");	
 					
+				}else {
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está com sobrepeso, isso pode ser prejudicial a sua saúde, "
+							+ "							é recomendavel que entre em contato com um profissinal de saúde qualificado para orienta-lo sobre que medidas você deve tomar"
+							+ "							se esse não for o seu caso e você deseja mudar, recomendamos que faça exercícios leves como caminha e polichinelo para melhorar o seu cardio");						
 				}
 				break;
 			case 13:
 				
 				if(imcM < 15.73) {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está abixo do peso. " + "Melhore a sua alimentação");
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está abaixo do peso, caso queira mudar ou "
+							+ "						não se sinta confortavel com ele, procure um nutricionista para ele orientar novas habitos alimentares");
 					
 				} else if (imcM >= 15.73 && imcM <= 21.93) {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está com o peso normal. " + "Continue assim!!!");
-				
-				}else {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está com sobrepeso." + "Melhore a sua alimentação, começe a fazer exercícios leves como caminhadas e procure a ajuda de um nutricionista");
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está com o peso normal, caso queira mudar ou "
+							+ "							não está confortavel com ele, você pode realizar exercícios leves, como caminhadas,"
+							+ "							polichinelos ou pular corda ");	
 					
+				}else {
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está com sobrepeso, isso pode ser prejudicial a sua saúde, "
+							+ "							é recomendavel que entre em contato com um profissinal de saúde qualificado para orienta-lo sobre que medidas você deve tomar"
+							+ "							se esse não for o seu caso e você deseja mudar, recomendamos que faça exercícios leves como caminha e polichinelo para melhorar o seu cardio");						
 				}
 				break;
 			case 14:
 				
 				if(imcM < 16.18) {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está abixo do peso. " + "Melhore a sua alimentação");
-					
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está abaixo do peso, caso queira mudar ou "
+							+ "						não se sinta confortavel com ele, procure um nutricionista para ele orientar novas habitos alimentares");
+										
 				} else if (imcM >= 16.18 && imcM <= 22.77) {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está com o peso normal. " + "Continue assim!!!");
-				
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está com o peso normal, caso queira mudar ou "
+							+ "							não está confortavel com ele, você pode realizar exercícios leves, como caminhadas,"
+							+ "							polichinelos ou pular corda ");	
+									
 				}else {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está com sobrepeso." + "Melhore a sua alimentação, começe a fazer exercícios leves como caminhadas e procure a ajuda de um nutricionista");
-					
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está com sobrepeso, isso pode ser prejudicial a sua saúde, "
+							+ "							é recomendavel que entre em contato com um profissinal de saúde qualificado para orienta-lo sobre que medidas você deve tomar"
+							+ "							se esse não for o seu caso e você deseja mudar, recomendamos que faça exercícios leves como caminha e polichinelo para melhorar o seu cardio");						
 				}
 				break;
 			case 15:
 				
 				if(imcM < 16.59) {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está abixo do peso. " + "Melhore a sua alimentação");
-					
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está abaixo do peso, caso queira mudar ou "
+							+ "						não se sinta confortavel com ele, procure um nutricionista para ele orientar novas habitos alimentares");
+										
 				} else if (imcM >= 16.59 && imcM <= 23.63) {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está com o peso normal. " + "Continue assim!!!");
-				
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está com o peso normal, caso queira mudar ou "
+							+ "							não está confortavel com ele, você pode realizar exercícios leves, como caminhadas,"
+							+ "							polichinelos ou pular corda ");	
+													
 				}else {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está com sobrepeso." + "Melhore a sua alimentação, começe a fazer exercícios leves como caminhadas e procure a ajuda de um nutricionista");
-					
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está com sobrepeso, isso pode ser prejudicial a sua saúde, "
+							+ "							é recomendavel que entre em contato com um profissinal de saúde qualificado para orienta-lo sobre que medidas você deve tomar"
+							+ "							se esse não for o seu caso e você deseja mudar, recomendamos que faça exercícios leves como caminha e polichinelo para melhorar o seu cardio");						
 				}
 				break;
 			case 16:
 				
 				if(imcM < 17.01) {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está abixo do peso. " + "Melhore a sua alimentação");
-					
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está abaixo do peso, caso queira mudar ou "
+							+ "						não se sinta confortavel com ele, procure um nutricionista para ele orientar novas habitos alimentares");
+															
 				} else if (imcM >= 17.01 && imcM <= 24.45) {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está com o peso normal. " + "Continue assim!!!");
-				
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está com o peso normal, caso queira mudar ou "
+							+ "							não está confortavel com ele, você pode realizar exercícios leves, como caminhadas,"
+							+ "							polichinelos ou pular corda ");	
+																	
 				}else {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está com sobrepeso." + "Melhore a sua alimentação, começe a fazer exercícios leves como caminhadas e procure a ajuda de um nutricionista");
-					
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está com sobrepeso, isso pode ser prejudicial a sua saúde, "
+							+ "							é recomendavel que entre em contato com um profissinal de saúde qualificado para orienta-lo sobre que medidas você deve tomar"
+							+ "							se esse não for o seu caso e você deseja mudar, recomendamos que faça exercícios leves como caminha e polichinelo para melhorar o seu cardio");						
 				}
 				break;
 			case 17:
 				
 				if(imcM < 17.31) {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está abixo do peso. " + "Melhore a sua alimentação");
-					
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está abaixo do peso, caso queira mudar ou "
+							+ "						não se sinta confortavel com ele, procure um nutricionista para ele orientar novas habitos alimentares");
+															
 				} else if (imcM >= 17.31 && imcM <= 25.28) {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está com o peso normal. " + "Continue assim!!!");
-				
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está com o peso normal, caso queira mudar ou "
+							+ "							não está confortavel com ele, você pode realizar exercícios leves, como caminhadas,"
+							+ "							polichinelos ou pular corda ");	
+																					
 				}else {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está com sobrepeso." + "Melhore a sua alimentação, começe a fazer exercícios leves como caminhadas e procure a ajuda de um nutricionista");
-					
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está com sobrepeso, isso pode ser prejudicial a sua saúde, "
+							+ "							é recomendavel que entre em contato com um profissinal de saúde qualificado para orienta-lo sobre que medidas você deve tomar"
+							+ "							se esse não for o seu caso e você deseja mudar, recomendamos que faça exercícios leves como caminha e polichinelo para melhorar o seu cardio");							
 				}
 				break;
 			case 18:
 				
 				if(imcM < 17.54) {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está abixo do peso. " + "Melhore a sua alimentação");
-					
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está abaixo do peso, caso queira mudar ou "
+							+ "						não se sinta confortavel com ele, procure um nutricionista para ele orientar novas habitos alimentares");
+																				
 				} else if (imcM >= 17.54 && imcM <= 25.95) {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está com o peso normal. " + "Continue assim!!!");
-				
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está com o peso normal, caso queira mudar ou "
+							+ "							não está confortavel com ele, você pode realizar exercícios leves, como caminhadas,"
+							+ "							polichinelos ou pular corda ");	
+																							
 				}else {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está com sobrepeso." + "Melhore a sua alimentação, começe a fazer exercícios leves como caminhadas e procure a ajuda de um nutricionista");
-					
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está com sobrepeso, isso pode ser prejudicial a sua saúde, "
+							+ "							é recomendavel que entre em contato com um profissinal de saúde qualificado para orienta-lo sobre que medidas você deve tomar"
+							+ "							se esse não for o seu caso e você deseja mudar, recomendamos que faça exercícios leves como caminha e polichinelo para melhorar o seu cardio");							
 				}
 				break;
 			case 19:
 				
 				if(imcM < 17.8) {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está abixo do peso. " + "Melhore a sua alimentação");
-					
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está abaixo do peso, caso queira mudar ou "
+							+ "						não se sinta confortavel com ele, procure um nutricionista para ele orientar novas habitos alimentares");
+																				
 				} else if (imcM >= 17.8 && imcM <= 26.36) {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está com o peso normal. " + "Continue assim!!!");
-				
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está com o peso normal, caso queira mudar ou "
+							+ "							não está confortavel com ele, você pode realizar exercícios leves, como caminhadas,"
+							+ "							polichinelos ou pular corda ");	
+																						
 				}else {
-					System.out.println("O seu IMC é: " + imcM + "\nVocê está com sobrepeso." + "Melhore a sua alimentação, começe a fazer exercícios leves como caminhadas e procure a ajuda de um nutricionista");
-					
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcM + "\nVocê está com sobrepeso, isso pode ser prejudicial a sua saúde, "
+							+ "							é recomendavel que entre em contato com um profissinal de saúde qualificado para orienta-lo sobre que medidas você deve tomar"
+							+ "							se esse não for o seu caso e você deseja mudar, recomendamos que faça exercícios leves como caminha e polichinelo para melhorar o seu cardio");						
 				}
 				break;
 				
 				default: 
 					
-					System.out.println("O seu IMC é: "  + imcM + "\nNão foi possível realizar o cálculo. " + "Entre novamente com o seu peso e altura.");
+					JOptionPane.showMessageDialog(null,"O seu IMC é: "  + imcM + "\nNão foi possível realizar o cálculo. " + "Entre novamente com o seu peso e altura.");
 					
 				break;
 			}
@@ -303,37 +387,36 @@ public class ExerciciosLevesCopia {
 			
 				if(imcA < 18.5) 
 			{
-					System.out.println("Você está abaixo do peso melhore a sua alimentação: ");
-			}
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcA + "\nVocê está abaixo do peso, caso queira mudar ou "
+							+ "						não se sinta confortavel com ele, procure um nutricionista para ele orientar como mudar os seus habitos alimentares");			
+					}
 				if( imcA >= 18.5 && imcA <= 24.9) 
 			{
-					System.out.println("Você está com o peso normal, continue assim : ");
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcA + "\nVocê está com o peso normal, mas quaso queira mudar recomendados exercícios leves"
+							+ 							"como caminhadas, corridas e polichinelos agora para "
+							+ "							os familiarizados o BURPEE possui um set de exercícios mais intensos");
 			}
 				if( imcA >= 25.0 && imcA <= 29.9) 
 			{
-					System.out.println("Você está com o peso de pré-obesidade : ");
-					
-					System.out.println("É recomendado que você faça exercícios leves como caminhada, corrida e melhore a sua alimentação");
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcA + "\nVocê está com pré-obesidade, isso pode levar a problemas de sáude"
+							+ "recomendamos que procure fazer exercícios leves como caminhada, polichinelos, pular corda e procure ajuda de um nutricionista para analisar seus habitos alimentares");					
 			}
 				if( imcA >= 30.0 && imcA <= 34.9) 
 			{
-					System.out.println("Você está com Grau 1 de obesidade!!! ");
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcA + "\nVoce está com Grau 1 de obesidade, isso pode levar a problemas de saúde"
+							+ "recomendamos que procure realizar exercícios leves como caminhas, polichinelos, pular corda e procure ajuda de um nutricionista para analisar seus habitos alimentares");
 					
-					System.out.println("Começe a fazer exercícios leves como caminhada, corrida, pular corda "
-							+ "e polichinelo, melhore a sua alimentação com o teste a seguir");
 			}
 				if( imcA >= 35.0 && imcA <= 39.9) 
 			{
-					System.out.println("Você está com Grau 2 de obesidade!!! ");
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcA + "\nVocê está com Grau 2 de obesidade,  isso pode levar a problemas de saúde "
+							+ "					recomendamos que procure realizar exercícios leves como caminhas e/ou polichinelos e procure ajuda de um nutricionista para analisar seus habitos alimentares");
 					
-					System.out.println("Procura ajuda medica para revisar o seus hábitos alimentares "
-										+ "e procurar realizar atividades físicas");
 			}
 				if( imcA >= 40) 
 			{
-						System.out.println("Você está com Grau 3 de obesidade!!!");
-						
-						System.out.println("Procure ajuda médica imediatamente");
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcA + "\nVocê está com Grau 3 de obesidade, isso pode afetar a sua saúde de forma negativa, "
+							+ "						recomendamos que procure um profissinal de saúde para orientações mais completas ");						
 			}
 		 
 		  }
@@ -342,16 +425,19 @@ public class ExerciciosLevesCopia {
 			
 				if(imcI < 22.0) 
 			{
-					System.out.println("Você está abaixo do peso melhore a sua alimentação: ");
-			}
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcI + "\nVocê está abaixo do peso, caso queira mudar ou "
+							+ "						não se sinta confortavel com ele, procure um nutricionista para ele orientar novas habitos alimentares");
+													}
 				if( imcI >= 22.0 && imcI <= 27.0) 
 			{
-					System.out.println("Você está com o peso normal, continue assim : ");
-			}
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcI + "\nVocê está com o peso normal, caso queira mudar ou "
+							+ "							não está confortavel com ele, você pode realizar exercícios leves, como caminhadas,"
+							+ "							polichinelos ou pular corda ");	
+					}
 				if( imcI >= 28.0) 
 			{
-					System.out.println("Você está com o peso de pré-obesidade : ");
-					System.out.println("É recomendado que você faça exercícios leves como caminhada, corrida e melhore a sua alimentação");
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcI + "\nVocê está com pré-obesidade, isso pode levar a problemas de sáude"
+							+ "recomendamos que procure fazer exercícios leves como caminhada, polichinelos, pular corda e procure ajuda de um nutricionista para analisar seus habitos alimentares");	
 			}
 		
 	
