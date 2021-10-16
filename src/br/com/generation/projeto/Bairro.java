@@ -1,19 +1,24 @@
-/* @author Bruno Foschini Pajtak
- * Date: 18/10/2021
- */
-
 package br.com.generation.projeto;
+
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+
 
 public class Bairro {
 	
+	
+   
+
 	private Map<String, List<String>> end = new HashMap<String, List<String>>();
 
-	public void Bairros(){
+	public Bairro(){
 	List<String> tatuapeList = new ArrayList<String>();
 	tatuapeList.add("Nutriclin|| Endereço: Rua Apucarana, 326. Telefone: (11) 3798-2829");
 	tatuapeList.add("Clínica Equilíbrio Nutricional || Endereço: Praça Sílvio Romero, 55 - sala 67. Telefone: (11) 2672-7300");
@@ -42,8 +47,33 @@ public class Bairro {
 	 public Map<String, List<String>> getEnd() {
 			return end;
 		}
+	 public static void GetBairro(String[] args, Object[] Categories) {
+			boolean terminar = false;
+				while (!terminar) {
+				Object endereco;
+				Scanner scanner = new Scanner(System.in);
+				Bairro bairros = new Bairro();
+				endereco = JOptionPane.showInputDialog(null, "Digite aqui um dos Bairros cobertos pelo MANJARVA: \n[Tatuapé]\n[Belém]\n[Mooca]\n[Vila Carrão]", "AVISO", JOptionPane.INFORMATION_MESSAGE);
+				List<String> resultado = bairros.getEnd().get(endereco);
+				
+				if (resultado == null) {
+					
+					JOptionPane.showMessageDialog(null, "O resultado não foi encontrado, por favor digite um dos bairros cobertos pelo aplicativo: ", "AVISO", JOptionPane.INFORMATION_MESSAGE);
+					}
+				else {
+					for (String obj: resultado) {
+					JOptionPane.showMessageDialog(null, obj, "RESULTADO", JOptionPane.INFORMATION_MESSAGE);
+					}
+					terminar = true;
+				
+				
+				scanner.close();
+				}
+				}
+			}
 
 
+	
 	/*Map<String, List<String>> hm = new HashMap<String, List<String>>();
 	List<String> values = new ArrayList<String>();
 	values.add("Value 1");

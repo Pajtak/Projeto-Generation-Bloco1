@@ -12,7 +12,7 @@ public class PessoaCaracteristica {
 	private int idade;
 	private double altura;
 	private double peso;
-	private String endereco;
+	
 	
 	public String getNome() {
 		return nome;
@@ -54,12 +54,5 @@ public class PessoaCaracteristica {
 		this.peso = peso;
 	}
 	
-	public String getEndereco() {
-		return endereco;
-	}
-	
-	public void setEndereco(String endereco) {
-		this.endereco = endereco;
-	}
 
 }
