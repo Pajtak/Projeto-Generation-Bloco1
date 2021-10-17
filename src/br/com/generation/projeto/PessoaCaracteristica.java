@@ -13,7 +13,6 @@ public class PessoaCaracteristica {
 	private double altura;
 	private double peso;
 	
-	
 	public String getNome() {
 		return nome;
 	}
@@ -54,5 +53,4 @@ public class PessoaCaracteristica {
 		this.peso = peso;
 	}
 	
-
 }

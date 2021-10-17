@@ -35,7 +35,7 @@ public class Bairro {
 	List<String> belemList = new ArrayList<String>();
 	belemList.add("Phillipe Rios - Nutricionista Esporte e Estética || Endereço: Rua Serra da Bocaina, 570 - Cj 41. Telefone: (11) 95892-8819");
 	belemList.add("Herba Saúde Nutricional || Endereço: Av. Celso Garcia, 1907. Telefone: (11) 97952-8499");
-	end.put("Mooca", belemList);
+	end.put("Belém", belemList);
 	List<String> moocaList = new ArrayList<String>();
 	moocaList.add("Espaço Saúde À Vida || Endereço: R. Canuto Saraiva, 59. Telefone: (11) 98707-8323");
 	moocaList.add("NutriMente Psicologia, Neuropsicologia e Nutrição || Endereço: R. da Mooca, 2343 - Sala 1. Telefone: (11) 99515-3854");
