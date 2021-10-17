@@ -392,7 +392,7 @@ public class ExerciciosLevesCopia {
 					}
 				if( imcA >= 18.5 && imcA <= 24.9) 
 			{
-					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcA + "\nVocê está com o peso normal, mas quaso queira mudar recomendados exercícios leves"
+					JOptionPane.showMessageDialog(null, "O seu IMC é: " + imcA + "\nVocê está com o peso normal, mas quase queira mudar recomendados exercícios leves"
 							+ 							"como caminhadas, corridas e polichinelos agora para "
 							+ "							os familiarizados o BURPEE possui um set de exercícios mais intensos");
 			}
