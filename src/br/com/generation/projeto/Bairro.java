@@ -25,7 +25,7 @@ public class Bairro {
 	tatuapeList.add("SF Nutrição || Endereço: R. Itapura, 300 - Conjunto 1302. Telefone: (11) 3713-2023");
 	tatuapeList.add("CliNutri || Endereço: Rua Doutor Corinto Baldoino Costa, 74. Telefone: (11) 98224-6063");
 	tatuapeList.add("NutreClínica || Endereço: R. Restinga, 113 - conjunto 305. Telefone: (11) 4114-9305");
-	end.put("Tatuape", tatuapeList);
+	end.put("Tatuapé", tatuapeList);
 	List<String> vilaCarraoList = new ArrayList<String>();
 	vilaCarraoList.add("Nutricionista Dra. Brenda Berlla || Endereço: Av. Conselheiro Carrão, 2620 - sala 1203. Telefone: (11) 98420-1266");
 	vilaCarraoList.add("Clinica Bio Ser || Endereço: Av. Conselheiro Carrão, 2939. Telefone: (11)2098-2971");
@@ -47,37 +47,20 @@ public class Bairro {
 	 public Map<String, List<String>> getEnd() {
 			return end;
 		}
-	 public static void GetBairro(String[] args, Object[] Categories) {
+	 public static void GetBairro(String[] args) {
 			boolean terminar = false;
 				while (!terminar) {
-				Object endereco;
-				Scanner scanner = new Scanner(System.in);
-				Bairro bairros = new Bairro();
-				endereco = JOptionPane.showInputDialog(null, "Digite aqui um dos Bairros cobertos pelo MANJARVA: \n[Tatuapé]\n[Belém]\n[Mooca]\n[Vila Carrão]", "AVISO", JOptionPane.INFORMATION_MESSAGE);
-				List<String> resultado = bairros.getEnd().get(endereco);
+		Bairro bairros = new Bairro();
+		Object[] options = {"Tatuapé", "Belém", "Mooca", "Vila Carrão"};
+		String n = (String)JOptionPane.showInputDialog(null, "Escolha um dos bairros cobertos pelo aplicativo:", 
+		            "Bairros", JOptionPane.QUESTION_MESSAGE, null, options, options[2]);
+		List<String> resultado = bairros.getEnd().get(n);
 				
-				if (resultado == null) {
-					
-					JOptionPane.showMessageDialog(null, "O resultado não foi encontrado, por favor digite um dos bairros cobertos pelo aplicativo: ", "AVISO", JOptionPane.INFORMATION_MESSAGE);
+		if (resultado == null) {
+		JOptionPane.showMessageDialog(null, "O resultado não foi encontrado, por favor escolha um dos bairros cobertos pelo aplicativo: ", "AVISO", JOptionPane.INFORMATION_MESSAGE);
 					}
-				else {
-					for (String obj: resultado) {
-					JOptionPane.showMessageDialog(null, obj, "RESULTADO", JOptionPane.INFORMATION_MESSAGE);
-					}
-					terminar = true;
-				
-				
-				scanner.close();
-				}
-				}
-			}
+		else {
+		for (String obj: resultado) {
+			JOptionPane.showMessageDialog(null, obj, "RESULTADO", JOptionPane.INFORMATION_MESSAGE);}
+					terminar = true;}}}}
 
-
-	
-	/*Map<String, List<String>> hm = new HashMap<String, List<String>>();
-	List<String> values = new ArrayList<String>();
-	values.add("Value 1");
-	values.add("Value 2");
-	hm.put("Key1", values);*/
-
-}

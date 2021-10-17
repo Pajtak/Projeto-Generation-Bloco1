@@ -66,7 +66,7 @@ public class Main {
 		switch(clin) {
 		    case 0: 
 		    	JOptionPane.showMessageDialog(null, "Vamos lá!"); //Yes option
-		    	Bairro.GetBairro(args, args);
+		    	Bairro.GetBairro(args);
 		    	break;
 		    case 1: 
 		    	JOptionPane.showMessageDialog(null, "Até mais!"); //No option
