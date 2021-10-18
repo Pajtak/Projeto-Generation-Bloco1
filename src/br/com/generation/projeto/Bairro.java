@@ -48,8 +48,16 @@ public class Bairro {
 			return end;
 		}
 	 public static void GetBairro(String[] args) {
-			boolean terminar = false;
-				while (!terminar) {
+		boolean terminar = false;
+		/*String[] options2 = {"Sim", "Não"};
+		String n2 = (String)JOptionPane.showInputDialog(null, "Você deseja procurar ajuda profissional? Se sim, o MANJARVA indicará Clínicas de Nutrição nos bairros que cobrimos.", 
+			            "OPÇÕES", JOptionPane.QUESTION_MESSAGE, null, options2, options2[0]);
+		if (n2 == "Não") {
+			JOptionPane.showMessageDialog(null, "OBRIGADO POR UTILIZAR O MANJARVA! VOLTE SEMPRE!", "AVISO", JOptionPane.INFORMATION_MESSAGE);
+			terminar = true;
+		}
+		else {*/
+		while (!terminar) {
 		Bairro bairros = new Bairro();
 		Object[] options = {"Tatuapé", "Belém", "Mooca", "Vila Carrão"};
 		String n = (String)JOptionPane.showInputDialog(null, "Escolha um dos bairros cobertos pelo aplicativo:", 
@@ -60,7 +68,8 @@ public class Bairro {
 		JOptionPane.showMessageDialog(null, "O resultado não foi encontrado, por favor escolha um dos bairros cobertos pelo aplicativo: ", "AVISO", JOptionPane.INFORMATION_MESSAGE);
 					}
 		else {
-		for (String obj: resultado) {
-			JOptionPane.showMessageDialog(null, obj, "RESULTADO", JOptionPane.INFORMATION_MESSAGE);}
-					terminar = true;}}}}
+			for (String obj: resultado) {
+			JOptionPane.showMessageDialog(null, obj, "CLINÍCAS DISPONÍVEIS EM ", JOptionPane.INFORMATION_MESSAGE);}
+			JOptionPane.showMessageDialog(null, "OBRIGADO POR UTILIZAR O MANJARVA! VOLTE SEMPRE!", "AVISO", JOptionPane.INFORMATION_MESSAGE);		
+			terminar = true;}}}}
 
